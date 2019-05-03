@@ -6,7 +6,7 @@ mongoose.connection.once('open',()=>{
                         }).on('err',(err)=>{
                             console.log("Ooops..!  connection fail",err);
                         });
-
+//dfghjk
 var ModelSchema=mongoose.model('pet',{name:String,age:Number});
 
 var rec=new ModelSchema({name:'channu',age:25});
